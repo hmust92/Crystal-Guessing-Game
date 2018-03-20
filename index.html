@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Homework</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<h1 class="page-header" id="heading">Crystal Collector</h1>
+		</div>
+		<div class="row">
+			<p class="instructions"> You will be given a random number at the start of the 	game. 
+            	There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. 
+				You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number. 
+				The value of each crystal is hidden until clicked.
+				Each new game, the crystals will have a new value.
+				Good Luck!</p>
+				<hr>
+			</div>
+
+			<div class="row stats">
+
+				<div class="col-md-4">
+					<div class="number"></div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="Results">
+							<p>
+								Wins:<div id="yourWins"></div>
+								Losses: <div id="yourLosses"></div>
+							</p>
+						</div>
+					</div>
+
+
+				<div class="col-md-4">
+					<div class="scoreStats">
+							<p>Your current tally is: </p>
+					</div>
+					<div class="tally"></div>	
+				</div>
+			</div>
+
+			<div class="row crystalImage">
+				<div class="col-md-12">
+					<img src="https://vignette.wikia.nocookie.net/starcraftfanfiction/images/5/59/Temril_Crystal.PNG/revision/latest?cb=20110114234517" id="red">
+					<img src="http://www.stickpng.com/assets/images/580b585b2edbce24c47b23f5.png" id="silver">
+					<img src="https://vignette.wikia.nocookie.net/finalfantasy/images/0/0e/XII_life_crystalbug_render.png/revision/latest?cb=20120723034602"  id="green">
+					<img src="http://media.indiedb.com/cache/images/games/1/65/64760/thumb_620x2000/TC-Blue-Crystal.png"  id="blue">
+				</div>
+			</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="assets/javascript/game.js"></script>
+
+
+</body>
+</html>
