@@ -13,3 +13,9 @@ git clone https://github.com/hmust92/Crystal-Guessing-Game.git
 After that, open it in your browser.
 
 ![Crystal Gif](https://github.com/hmust92/Crystal-Guessing-Game/blob/master/MarkdownMaterial/crystalGame.gif)
+
+* HTML
+* CSS
+* Javascript 
+* jQuery
+
